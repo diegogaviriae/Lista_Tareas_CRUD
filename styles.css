@@ -6,7 +6,7 @@
 
 
 body {
-    background-color: aquamarine;
+    background-color: aqua
 }
 
 .header {
@@ -58,7 +58,7 @@ body {
     width: 30%;
     height: 250px;
     margin: 15px 15px;
-    background-color: rgb(175, 175, 175);
+    background-color: rgb(95, 95, 95);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -71,7 +71,7 @@ body {
     margin-top: 10px;
     font-weight: 300;
     font-size: 2em;
-    color: white;
+    color: aqua;
 }
 
 .contenedor .div_formulario form {
@@ -94,7 +94,7 @@ body {
     width: 55%;
     height: calc(100% - 50px);
     margin: 15px 15px;
-    background-color: rgb(175, 175, 175);;
+    background-color: rgb(95, 95, 95);;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,7 +106,7 @@ body {
     margin-top: 10px;
     font-weight: 300;
     font-size: 2em;
-    color: white;
+    color: aqua;
 }
 
 .contenedor .div_listado .div_tareas {
@@ -122,7 +122,7 @@ body {
 .contenedor .div_listado .div_tareas p {
     margin: 10px 0;
     font-size: 1em;
-    color: #ffffff;
+    color: aqua;
 }
 
 hr {
@@ -144,4 +144,40 @@ hr {
 
 .btn-eliminar {
     background-color: rgb(255, 75, 75);
+}
+
+footer {
+    background-color: rgb(22, 22, 22);
+    padding: 80px 200px 50px 200px;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: 18% 65% 1fr;
+}
+
+.footer-top nav {
+    display: flex;
+}
+
+.footer-top nav ul {
+    margin-right: 55px;
+}
+
+.footer-top nav li {
+    list-style: none;
+    margin-top: 10px;
+    letter-spacing: .08em;
+    font-size: 14px;
+    color: white;
+}
+
+.footer-top nav li:hover {
+    color: aqua;
+}
+
+.footer-top nav li.titulo {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: aqua;
 }
